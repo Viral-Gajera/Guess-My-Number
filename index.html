@@ -13,20 +13,23 @@
     
     <section id="main">
 
+        <!-- TOP -->
         <section id="top-section" class="main-flex-item" >
             <h1>Guss My Number</h1>
             <p> &lt; Between 1 and 20 &gt; </p>
         </section>
         
+        <!-- MIDDLE -->
         <section id="middle-section" class="main-flex-item" >
             <div id="currect-ans" >
-                <p>?</p>
+                <p id="secret-num" >?</p>
             </div>
         </section>
-        
+
+        <!-- BOTTOM -->
         <section id="bottom-section" class="main-flex-item" >
 
-            <div class="button" >Again</div>
+            <div class="button" >Again!</div>
             
             <div id="playable" >
 
@@ -36,9 +39,9 @@
                 </div>
 
                 <div id="right" >
-                    <p>Too high!!</p>
-                    <p>Score: </p>
-                    <p>Highscore: </p>
+                    <p class="message" > &gt; Start Gussing...</p>
+                    <p> &gt; Score: <span id="score"></span></p>
+                    <p> &gt; Highscore: <span id="highscore"></span></p>
                 </div>
 
             </div>

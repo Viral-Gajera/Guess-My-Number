@@ -120,10 +120,19 @@
     padding: 10px;
     font-size: 15px;
 
+    
     background-color: white;
     width: 100px;
     height: 35px;
     text-align: center;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button:active{
+    color: rgb(168, 168, 168);
 }
 
 #playable{
@@ -149,11 +158,12 @@
 #left input[type="number"]{
     color: white;
     font-size: 25px;
+    text-align: center;
 
     width: 130px;
 
     outline: none;
-    border: 2px solid white;
+    border: 3px solid white;
 
     display: block;
     margin: 30px auto 30px auto;
@@ -162,22 +172,19 @@
 }
 
 #right p{
-    font-size: 15px;
+    font-size: 10px;
     color: white;
 }
 
 #right p:nth-child(1){
-    font-size: 15px;
 
     margin: 50px auto 50px 20px;
 }
 #right p:nth-child(2){
-    font-size: 15px;
 
     margin: 10px auto 20px 20px;
 }
 #right p:nth-child(3){
-    font-size: 15px;
 
     margin: 10px auto 10px 20px;
 }
