@@ -1,0 +1,183 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+
+*{
+    font-family: "Press Start 2P";
+    background-color: black;
+    box-sizing: border-box;
+}
+
+/* media query */
+@media screen and (min-width : 800px) {
+    #main{
+        width: 800px ;
+    }
+}
+@media screen and (min-width : 600px) and (max-width : 800px) {
+    #main{
+        width: 90vw;
+    }
+}
+@media screen and (max-width : 600px) {
+    #main{
+        display: none;
+    }
+}
+
+
+/* styling to main section */
+#main{
+
+    margin: 4vh auto ;
+    border: 2px solid rgb(255, 255, 255);
+    height: 90vh;    
+
+    /* flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+/* styling to flex item */
+.main-flex-item{
+    /* border: 2px solid white; */
+    width: 100%;
+    
+    /* background-color: rgb(109, 109, 109); */
+}
+
+
+
+/* TOP SECTION */
+#top-section{
+    height: 150px;
+
+    /* flex */
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#top-section h1{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+#top-section p{
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+
+/* MIDDLE SECTION */
+#middle-section{
+    height: 0px;
+    width: 100vw;
+    background-color: white;
+    border: 3px solid white;
+
+    /* flex */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#currect-ans{
+    width: 200px;
+    height: 100px;
+    border: 2px solid white;
+    background-color: white;
+
+    /* flex */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#currect-ans p{
+    background-color: white;
+    font-size: 50px;
+}
+
+
+
+/* BOTTOM SECTION */
+#bottom-section{
+    height: 350px;
+}
+
+#bottom-section .button{
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    font-size: 15px;
+
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+}
+
+#playable{
+    margin: auto;
+    /* border: 2px solid white; */
+
+    width: 90%;
+    height: 250px;
+
+    /* flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#playable > div{
+    margin: 5px;
+    width: 40%;
+    height: 90%;
+    /* border: 2px solid white; */
+}
+
+#left input[type="number"]{
+    color: white;
+    font-size: 25px;
+
+    width: 130px;
+
+    outline: none;
+    border: 2px solid white;
+
+    display: block;
+    margin: 30px auto 30px auto;
+    padding: 15px;
+
+}
+
+#right p{
+    font-size: 15px;
+    color: white;
+}
+
+#right p:nth-child(1){
+    font-size: 15px;
+
+    margin: 50px auto 50px 20px;
+}
+#right p:nth-child(2){
+    font-size: 15px;
+
+    margin: 10px auto 20px 20px;
+}
+#right p:nth-child(3){
+    font-size: 15px;
+
+    margin: 10px auto 10px 20px;
+}
