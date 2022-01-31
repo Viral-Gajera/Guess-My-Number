@@ -121,18 +121,23 @@
     font-size: 15px;
 
     
-    background-color: white;
+    /* background-color: white; */
     width: 100px;
     height: 35px;
     text-align: center;
 }
 
+.button{
+    background-color: white;
+}
+
 .button:hover{
     cursor: pointer;
+    background-color: rgb(182, 182, 182);
 }
 
 .button:active{
-    color: rgb(168, 168, 168);
+    color: rgb(255, 255, 255);
 }
 
 #playable{
