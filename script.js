@@ -16,7 +16,7 @@ const MAXIMUM = 20;
 let RANDOM = Math.floor(MINIMUM +( Math.random() * (MAXIMUM - MINIMUM) + 1 ));
 console.log(RANDOM);
 
-description.innerHTML = `< Between ${MINIMUM} and ${MAXIMUM} >`
+description.innerHTML = `< Guess the number between ${MINIMUM} and ${MAXIMUM} >`
 
 let Try = (MAXIMUM / 2);
 tryLeft.textContent = Try;
@@ -77,7 +77,7 @@ check.addEventListener('click',function()
         }
         else{
             secretNum.textContent = RANDOM;
-            message.textContent = `> Correct 🏆 !!`;
+            message.textContent = `> Correct !!`;
 
             secretNum.style.backgroundColor = 'lightgreen';
             currectAns.style.backgroundColor = 'lightgreen';
