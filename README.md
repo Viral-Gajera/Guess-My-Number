@@ -2,7 +2,8 @@
  
 > This is a number guessing game in which you have to guess numbers between 1 to 20.<br>
 > If the guessed number is correct, then you win.<br>
-> If the guessed number is incorrect, then you have to try again untill game over.
+> If the guessed number is incorrect, then you have to try again untill game over.<br>
+> <a href="https://viral-gajera.github.io/Guess-My-Number/">Click</a> here to see the result
 
 ### Game looks like...
 
